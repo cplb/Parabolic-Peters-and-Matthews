@@ -98,18 +98,30 @@ where the function $\ell(n,e)$ is defined in the last line. For a parabolic orbi
 We simplify $\ell(n,e)$ using the recurrence formulae (Watson\cite{Watson1995} 2.12)
 \begin{eqnarray}
 J_{\nu-1}(z) + J_{\nu+1}(z) & = & \frac{2\nu}{z}J_\nu(z)\\*
-J_{\nu-1}(z) - J_{\nu+1}(z) & = & 2J'_\nu(z),\label{eq:J_derivative}
+J_{\nu-1}(z) - J_{\nu+1}(z) & = & 2J'_\nu(z),
 \end{eqnarray}
 and eliminate $n$ using
 \begin{eqnarray}
 n & = & \frac{\omega_n}{\omega_0} \nonumber \\*
 & = & (1-e)^{-3/2}\tilde{f},
 \end{eqnarray}
-where $\tilde{f} = \omega_n/\omega\sub{c} = f_n/f\sub{c}$ is a dimensionless frequency. To find the limit we define two new functions
+where $\tilde{f} = \omega_n/\omega\sub{c} = f_n/f\sub{c}$ is a dimensionless frequency. Breaking $\ell$ into three manageable parts
+\begin{eqnarray}
+\ell & = & \underbrace{(1-e)^2n^4\left[J_{n-2} - 2eJ_{n-1} + \frac{2}{n}J_n + 2eJ_{n+1} - J_{n+2}\right]^2}_{\ell_1} \nonumber \\*
+ & & + \underbrace{(1-e)^3(1+e)n^4\left[J_{n-2} - 2J_n + J_{n+2}\right]^2}_{\ell_2} \nonumber \\*
+ & & + \underbrace{\frac{4(1-e)^2n^2}{3}\left[J_n\right]^2}_{\ell_3}.
+\end{eqnarray}
+We suppress the argument of the Bessel functions for brevity. Tackling each term of $\ell$ in turn
+\begin{eqnarray}
+\ell_1 & = & \left[\frac{4(1+e)\tilde{f}^2}{e}\frac{J'_n}{1-e} + 2\frac{e-2}{e}\tilde{f}\frac{J_n}{(1-e)^{1/2}}\right]^2;\\*
+\ell_2 & = & 16(1+e)\left[\frac{(1+e)\tilde{f}^2}{e^2}\frac{J_n}{(1-e)^{1/2}} - \tilde{f}\frac{J'_n}{e}\right]^2;\\
+\ell_3 & = & \frac{4\tilde{f}^2}{3}\left[\frac{J_n}{(1-e)^{1/2}}\right]^2.
+\end{eqnarray}
+To find the limit we define two new functions
 \begin{equation}
 A(\tilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J_n(ne)}{(1-e)^{1/2}}\right\}; \quad B(\tilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J'_n(ne)}{1-e}\right\}.
 \end{equation}
-To give a well defined energy spectrum, both of these must be finite.
+To give a well defined energy spectrum, both of these must be finite. In this case we see that the second term in $\ell_2$ should go to zero.
 
 The Bessel function has an integral representation
 \begin{equation}
@@ -127,9 +139,13 @@ this last expression is an Airy integral and has a standard form (Watson\cite{Wa
 where $K_\nu(z)$ is a modified Bessel function of the second kind. Using this to evaluate our limit gives
 \begin{equation}
 J_\nu(z) \sim \recip{\pi}\sqrt{\frac{2(\nu - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu -z)^3}{z}}\right).
-\label{eq:J_nu}
 \end{equation}
 For our case
+\begin{eqnarray}
+\nu = (1 - e)^{-3/2}\tilde{f}; &\quad& z = (1 - e)^{-3/2}e\tilde{f}; \\*
+\frac{\nu - z}{z} = (1 - e); &\quad& \frac{(\nu - z)^3}{z} = \tilde{f}^2;
+\end{eqnarray}
+thus
 \begin{equation}
 J_n(ne) \sim \recip{\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right),
 \end{equation}
@@ -138,9 +154,23 @@ and the limiting function is well defined,
 A(\tilde{f}) = \recip{\pi}\sqrt{\frac{2}{3}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right).
 \end{equation}
 
-To find the derivative we combine \eqnref{J_derivative} and \eqnref{J_nu}, and expand to lowest order yielding
+Finding the derivative
 \begin{eqnarray}
-J'_n(ne) & \sim & -\frac{1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right) \right. \nonumber \\*
+J'_\nu(z) & = & \recip{2}\left[J_{\nu-1}(z) - J_{\nu+1}(z)\right] \nonumber \\*
+ & \sim & \recip{2\pi}\left[\sqrt{\frac{2(\nu -1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu - 1 - z)^3}{z}}\right) \right. \nonumber \\*
+ & & \left. - \sqrt{\frac{2(\nu +1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu + 1 - z)^3}{z}}\right)\right].
+\end{eqnarray}
+For our case
+\begin{eqnarray}
+\sqrt{\frac{\nu \pm 1 - z}{z}} & \simeq & (1 - e)^{1/2}\left[1 \pm \frac{(1-e)^{1/2}}{2\tilde{f}}\right];\\*
+\sqrt{\frac{(\nu \pm 1 - z)^{3/2}}{z}} & \simeq & \tilde{f}\left[1 \pm \frac{3(1-e)^{1/2}}{2\tilde{f}}\right];
+\end{eqnarray}
+and so
+\begin{eqnarray}
+J'_n(ne) & \sim & \recip{2\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}\left\{\left[1 - \frac{(1-e)^{1/2}}{2\tilde{f}}\right] \right. \nonumber \\*
+ & & \times K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\tilde{f}}\right]\right) \nonumber \\*
+ & & \left. - \left[1 + \frac{(1-e)^{1/2}}{2\tilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\tilde{f}}\right]\right)\right\}\nonumber \\*
+ & \sim & -\frac{1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right) \right. \nonumber \\*
  & & \left. + \recip{\tilde{f}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right)\right].
 \end{eqnarray}
 We may re-express the derivative using the recurrence formula (Watson\cite{Watson1995} 3.71)
