@@ -21,7 +21,6 @@
 
 %\preprint{}
 
-%Title of paper
 \title{The Parabolic Limit for Peters and Matthews Energy Spectra}
 
 \author{Christopher P. L. Berry}
@@ -280,7 +279,7 @@ N & = & \recip{\pi}\intd{r\sub{p}}{\infty}{\diff{\phi}{r}}{r} \nonumber \\*
 \end{eqnarray}
 where
 \begin{equation}
-w^2 = r^3 - (L_z^2/2M)r^2 + (L_z - a)^2r;
+w^2 = r^3 - \frac{L_z^2}{2M}r^2 + (L_z - a)^2r;
 \end{equation}
 $L_z$ is the angular momentum about the $z$-axis; $a$ is the spin parameter, and we have adopted units with $G = c = 1$. We will find it useful to define
 \begin{equation}
@@ -292,7 +291,7 @@ r\sub{p,\,1} = \frac{L_z^2}{2M} \pm \sqrt{\frac{L_z^4}{16M^2} - (L_z -a)^2};
 \end{equation}
 the periapsis is the larger root $r\sub{p} > r_1$. The integral may be rewritten as
 \begin{equation}
-N = \frac{L_z}{\pi\sqrt{2M}}\intd{r\sub{p}}{\infty}{\recip{w}\left[1 + \frac{\alpha_+}{r-r_+} + \frac{\alpha_-}{r-r_-}\right]}{r},
+N = \frac{L_z}{\pi\sqrt{2M}}\intd{r\sub{p}}{\infty}{\recip{w}\left(1 + \frac{\alpha_+}{r-r_+} + \frac{\alpha_-}{r-r_-}\right)}{r},
 \end{equation}
 where
 \begin{equation}
@@ -347,11 +346,10 @@ Non-equatorial orbits are more complicated because of the additional motion in t
 
 Considering bursts from the Galactic centre, orbits with periapses of $r\sub{p} \lesssim 120 M$ should be detectable with LISA\cite{Rubbo2006, Hopman2007}. While the most interesting orbits, those which probe the strong-field region of the MBH's spacetime, are beyond the regime of the Peters and Matthews approach, $r\sub{p} \gtrsim 20 M$ for equatorial orbits, we see that many will be reasonably approximated by the PM formalism. Therefore, it should be possible to explore this region of parameter space using the PM approximation as a guide.
 
-% If you have acknowledgments, this puts in the proper section head.
 \begin{acknowledgments}
 JRG's work is supported by the Royal Society. CPLB is supported by an STFC studentship.
 \end{acknowledgments}
 
-\bibliography{../library}
+\bibliography{Parabolic_spectrum}
 
 \end{document}
