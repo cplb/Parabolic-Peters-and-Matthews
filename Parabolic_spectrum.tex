@@ -32,7 +32,7 @@
 \date{\today}
 
 \begin{abstract}
-We derive an analytic expression for the gravitational wave energy spectrum for parabolic orbits using the approach of Peters and Matthews. This result is applicable in the weak-field regime, but is reasonably accurate ($\sim \SI{10}{\percent}$) provided that the orbiting body does not rotate more than $\Delta \phi = 2.2\pi$. For equatorial orbits in Kerr spacetime, this corresponds to periapse radii of $r\sub{p} \gtrsim 20 M$. The parabolic limit should be able to describe high eccentricity orbits. In particular, the results may be used for compact object scattered onto eccentric orbits about the Galactic massive black hole. The radiation from such encounters should be detectable with LISA.
+We derive an analytic expression for the gravitational wave energy spectrum for parabolic orbits using the approach of Peters and Matthews. This result is applicable in the weak-field regime, but is reasonably accurate ($\sim 10\%$) provided that the orbiting body does not rotate more than $\Delta \phi = 2.2\pi$. For equatorial orbits in Kerr spacetime, this corresponds to periapse radii of $r\sub{p} \gtrsim 20 M$. The parabolic limit should be able to describe high eccentricity orbits. In particular, the results may be used for compact object scattered onto eccentric orbits about the Galactic massive black hole. The radiation from such encounters should be detectable with LISA.
 \end{abstract}
 
 % 04.30.-w 	Gravitational waves
@@ -129,7 +129,7 @@ For our case
 \begin{equation}
 J_n(ne) \sim \recip{\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right),
 \end{equation}
-and the limiting function is well defined,
+and the first limiting function is well defined,
 \begin{equation}
 A(\tilde{f}) = \recip{\pi}\sqrt{\frac{2}{3}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right).
 \end{equation}
@@ -162,7 +162,7 @@ Having obtained expressions for $A(\tilde{f})$ and $B(\tilde{f})$ in terms of st
 \end{equation}
 where we have used the limit
 \begin{eqnarray}
-\ell(\tilde{f}) & = & \left[8\tilde{f}B(\tilde{f}) - 2\tilde{f}A(\tilde{f})\right]^2 \nonumber \\*
+\ell(\tilde{f}) & = & \left[8\tilde{f}^2B(\tilde{f}) - 2\tilde{f}A(\tilde{f})\right]^2 \nonumber \\*
  & & + \left(128\tilde{f}^4 + \frac{4\tilde{f}^2}{3}\right)\left[A(\tilde{f})\right]^2.
 \end{eqnarray}
 
@@ -178,7 +178,7 @@ where we have used equations \eqnref{PM_P}, \eqnref{Kepler_freq} and \eqnref{E(n
 \end{equation}
 Using this,
 \begin{equation}
-E\sub{sum} = \frac{64\pi}{5}\frac{G^3}{c^5}\frac{M_1^2M_2^2}{r\sub{p}^2}\omega\sub{c}\left(1 + \frac{73}{24}e^2 + \frac{37}{96}e^4\right),
+E\sub{sum} = \frac{64\pi}{5}\frac{G^3}{c^5}\frac{M_1^2M_2^2}{r\sub{p}^2}\omega\sub{c}\left(1 + \frac{73}{24}e^2 + \frac{37}{96}e^4\right)(1+e)^{-7/2},
 \end{equation}
 which is perfectly well behaved as $e \rightarrow 1$,
 \begin{equation}
@@ -272,7 +272,7 @@ The approach of Peters and Matthews assumes Keplerian orbits in flat spacetime. 
 \end{figure*}
 \Figref{N_ratio} shows how ratio of energies correlates with the number of rotations, defined as $N = {\Delta \phi}/{2\pi}$, where $\Delta \phi$ is the total change in the azimuthal angle over an orbit. As $N$ increases the ratio decreases because the Keplerian orbit does not include this extra rotation. The accuracy of the PM result deteriorates rapidly once the orbit transitions to a zoom-whirl trajectory. When this happens the orbit is far from parabolic in shape.
 
-The PM result is accurate to $\sim \SI{10}{\percent}$ for orbits with $N \lesssim 1.1$. We will adopt this as a cut-off point. For an equatorial orbit in Kerr spacetime, the number of rotations is
+The PM result is accurate to $\sim 10\%$ for orbits with $N \lesssim 1.1$. We will adopt this as a cut-off point. For an equatorial orbit in Kerr spacetime, the number of rotations is
 \begin{eqnarray}
 N & = & \recip{\pi}\intd{r\sub{p}}{\infty}{\diff{\phi}{r}}{r} \nonumber \\*
  & = & \frac{L_z}{\pi\sqrt{2M}}\intd{r\sub{p}}{\infty}{\frac{r^2 - 2M(1 - a/L_z)r}{(r^2 - 2Mr + a^2)w}}{r},
