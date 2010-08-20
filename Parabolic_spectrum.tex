@@ -1,4 +1,4 @@
-\documentclass[aps,prd,reprint,showpacs,groupedaddress]{revtex4-1}
+\documentclass[aps,prd,amsfonts,amssymb,amsmath,reprint,showpacs,groupedaddress]{revtex4-1}
 \usepackage{graphicx,color,psfrag}
 \usepackage{subfigure}
 \usepackage{siunitx}
@@ -62,7 +62,7 @@ P(n) = \frac{32}{5}\frac{G^4}{c^5}\frac{M_1^2M_2^2(M_1 + M_2)(1-e)^5}{r\sub{p}^5
 \end{equation}
 where the function $g(n,e)$ is defined in terms of Bessel functions of the first kind
 \begin{eqnarray}
-g(n,e) & = & \frac{n^4}{32}\left\{\left[J_{n-2}(ne) - 2eJ_{n-1}(ne) \phantom{\frac{2}{n}J_n(ne)} \right. \right. \nonumber \\*
+g(n,e) & = & \frac{n^4}{32}\left\{\left[J_{n-2}(ne) - 2eJ_{n-1}(ne) \vphantom{\frac{2}{n}J_n(ne)} \right. \right. \nonumber \\*
  & & \left. + \frac{2}{n}J_n(ne) + 2eJ_{n+1}(ne) - J_{n+2}(ne)\right]^2 \nonumber \\*
  & & + \left(1 - e^2\right)\left[J_{n-2}(ne) - 2J_n(ne) + J_{n+2}(ne)\right]^2 \nonumber \\*
  & & \left. + \frac{4}{3n^2}\left[J_n(ne)\right]^2\right\}.
@@ -174,11 +174,11 @@ E\sub{sum} = \frac{64\pi}{5}\frac{G^3}{c^5}\frac{M_1^2M_2^2}{r\sub{p}^2}\omega\s
 \end{equation}
 where we have used equations \eqnref{PM_P}, \eqnref{Kepler_freq} and \eqnref{E(n)}. Peters and Matthews\cite{Peters1963} provide the result
 \begin{equation}
-\sum_n g(n,e) = \left(1 + \frac{73}{24}e^2 + \frac{37}{96}e^4\right)(1-e^2)^{-7/2}.
+\sum_n g(n,e) = \frac{1 + (73/24)e^2 + (37/96)e^4}{(1-e^2)^{7/2}}.
 \end{equation}
 Using this,
 \begin{equation}
-E\sub{sum} = \frac{64\pi}{5}\frac{G^3}{c^5}\frac{M_1^2M_2^2}{r\sub{p}^2}\omega\sub{c}\left(1 + \frac{73}{24}e^2 + \frac{37}{96}e^4\right)(1+e)^{-7/2},
+E\sub{sum} = \frac{64\pi}{5}\frac{G^3}{c^5}\frac{M_1^2M_2^2}{r\sub{p}^2}\omega\sub{c}\frac{1 + (73/24)e^2 + (37/96)e^4}{(1+e)^{7/2}},
 \end{equation}
 which is perfectly well behaved as $e \rightarrow 1$,
 \begin{equation}
