@@ -161,7 +161,7 @@ where we have used the limit
 \ell(\tilde{f}) & = & \left[8\tilde{f}^2B(\tilde{f}) - 2\tilde{f}A(\tilde{f})\right]^2 \nonumber \\*
  & & + \left(128\tilde{f}^4 + \frac{4\tilde{f}^2}{3}\right)\left[A(\tilde{f})\right]^2.
 \end{eqnarray}
-\Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter. Although more power is radiated into higher harmonics, the peak of the spectrum does not move much (cf. Fig.~3 of Peters and Matthews~\cite{Peters1963}).
+\Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter (cf. Fig.~3 of Peters and Matthews~\cite{Peters1963}). Although more power is radiated into higher harmonics, the peak of the spectrum does not move much: it is always between $f = f_{c}$ and $f = 2 f_{c}$, with $f = 2 f_{c}$ for $e = 0$ and $f \simeq 1.637 f_{c}$ for $e = 1$.
 \begin{figure}
 \begin{psfrags}%
 \psfragscanon%
@@ -230,7 +230,7 @@ The two total energies are consistent, $E\sub{int} = E\sub{sum}$.
 
 \subsection{Limit of Approximation}
 
-The approach of Peters and Matthews assumes Keplerian orbits in flat spacetime. This should be a valid approximation in the weak-field regime far from a massive body. To find the limit of this approximation, we can compare the PM results with those from more accurate techniques. Energy spectra for parabolic orbits do not seem to be available in the literature yet, so we will make do with the total energy fluxes calculated by Martel~\cite{Martel2004a}, who uses time-domain black hole perturbation theory for a Schwarzschild black hole of mass $M$. \Figref{Ratio} shows the ratio of the two energies as a function of periapse distance. As expected the PM result is more accurate for larger periapses. The agreement worsens as the periapsis decreases. At $r_{p} = 4 M$, corresponding to the radius of the innermost stable circular orbit (ISCO), the energy flux calculated by Martel diverges, so the ratio tends to zero. This divergence is because in Schwarzschild (or Kerr) spacetime a parabolic orbit may have a zoom-whirl structure where it undergoes a number of near circular orbits (whirls) about the black hole. As the radius of the ISCO is approached, the number of whirls tends to infinity (in the absence of radiation reaction), so an infinite amount of energy is radiated.
+The approach of Peters and Matthews assumes Keplerian orbits in flat spacetime. This should be a valid approximation in the weak-field regime far from a massive body. To find the limit of this approximation, we can compare the PM results with those from more accurate techniques. Energy spectra for parabolic orbits do not seem to be available in the literature yet, so we will make do with the total energy fluxes calculated by Martel~\cite{Martel2004a}, who uses time-domain black hole perturbation theory for a Schwarzschild black hole of mass $M$. \Figref{Ratio} shows the ratio of the two energies as a function of periapse distance. As expected the PM result is more accurate for larger periapses. The agreement worsens as the periapsis decreases. At $r_{p} = 4 M$, corresponding to the radius of the innermost stable circular orbit (ISCO), the energy flux calculated by Martel diverges, so the ratio tends to zero. This divergence is because in Schwarzschild (or Kerr) spacetime a parabolic orbit may have a zoom-whirl structure where it undergoes a number of near circular rotations (whirls) about the black hole. As the radius of the ISCO is approached, the number of whirls tends to infinity (in the absence of radiation reaction), so an infinite amount of energy is radiated.
 \begin{figure}
 \begin{psfrags}%
 \psfragscanon%
@@ -247,12 +247,12 @@ The approach of Peters and Matthews assumes Keplerian orbits in flat spacetime. 
 \psfrag{x04}[t][t]{15}%
 \psfrag{x05}[t][t]{20}%
 \psfrag{x06}[t][t]{25}%
-\psfrag{x07}[t][t]{0}%
-\psfrag{x08}[t][t]{5}%
-\psfrag{x09}[t][t]{10}%
-\psfrag{x10}[t][t]{15}%
-\psfrag{x11}[t][t]{20}%
-\psfrag{x12}[t][t]{25}%
+\psfrag{x07}[t][t]{}%
+\psfrag{x08}[t][t]{}%
+\psfrag{x09}[t][t]{}%
+\psfrag{x10}[t][t]{}%
+\psfrag{x11}[t][t]{}%
+\psfrag{x12}[t][t]{}%
 %
 % yticklabels:
 \psfrag{v01}[l][l]{0.0}%
@@ -290,7 +290,7 @@ r_\pm = M \pm \sqrt{M^2 - a^2},
 \end{equation}
 and the two non-zero roots of the cubic $w^2$
 \begin{equation}
-r_{p,\,1} = \frac{L_z^2}{2M} \pm \sqrt{\frac{L_z^4}{16M^2} - (L_z -a)^2};
+r_{p,\,1} = \frac{L_z^2}{4M} \pm \sqrt{\frac{L_z^4}{16M^2} - (L_z -a)^2};
 \end{equation}
 the periapsis is the larger root $r_{p} > r_1$. The integral may be rewritten as
 \begin{equation}
@@ -339,7 +339,7 @@ where $K(m) = \int_{0}^{\pi/2}{\dd\vartheta/\sqrt{1-m\sin^2\vartheta}}$ is the c
 % Figure:
 \resizebox{7cm}{!}{\includegraphics{N_peri.eps}}%
 \end{psfrags}%
-\caption{Periapse radius corresponding to $N = 1.1$ as a function of spin parameter $a$. The curve may be approximated by a straight line $r_{p} = -3.91 a + 17.36M$.\label{fig:N_peri}}
+\caption{Periapse radius corresponding to $N = 1.1$ as a function of spin parameter $a$ (solid line). The curve may be approximated by a straight line $r_{p} = -3.91 a + 17.36M$ (dashed line).\label{fig:N_peri}}
 \end{figure}
 Equatorial orbits with larger periapses should be reasonably approximated by the PM result.
 
