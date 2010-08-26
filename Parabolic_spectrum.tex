@@ -32,7 +32,7 @@
 \date{\today}
 
 \begin{abstract}
-We derive an analytic expression for the energy spectrum  of gravitational waves from a parabolic Keplerian binary by taking the limit of the Peters and Matthews spectrum for eccentric orbits. This demonstrates that the location of the peak of the energy spectrum depends primarily on the orbital periapse rather than the eccentricity. We compare this weak-field result to strong-field calculations and find it is reasonably accurate ($\sim10\%$) provided that the azimuthal and radial orbital frequencies do not differ by more than $\sim10\%$. For equatorial orbits in the Kerr spacetime, this corresponds to periapse radii of $r_{p} \gtrsim 20 M$. These results will be of use to model radiation bursts from compact objects on highly eccentric orbits about massive black holes in the local Universe, which could be detected by LISA.
+We derive an analytic expression for the energy spectrum  of gravitational waves from a parabolic Keplerian binary by taking the limit of the Peters and Matthews spectrum for eccentric orbits. This demonstrates that the location of the peak of the energy spectrum depends primarily on the orbital periapse rather than the eccentricity. We compare this weak-field result to strong-field calculations and find it is reasonably accurate ($\sim10\%$) provided that the azimuthal and radial orbital frequencies do not differ by more than $\sim10\%$. For equatorial orbits in the Kerr spacetime, this corresponds to periapse radii of $r_{p} \gtrsim 20 M$. These results can be used to model radiation bursts from compact objects on highly eccentric orbits about massive black holes in the local Universe, which could be detected by LISA.
 \end{abstract}
 
 % 04.30.-w 	Gravitational waves
@@ -45,7 +45,7 @@ We derive an analytic expression for the energy spectrum  of gravitational waves
 
 \section{Introduction}
 
-An important source of gravitational waves for the proposed space-based gravitational wave detector, the Laser Interferometer Space Antenna (LISA)~\cite{Bender1998, Danzmann2003}, are the inspirals of stellar-mass compact objects into massive black holes in the centres of galaxies. During the last few years of inspiral these systems generate continuous gravitational waves in the LISA band, which will allow the detection of as many as several hundred systems out to redshift $z \sim 1$~\cite{Gair2009}. However, prior to this phase, the inspiral object spends many years on a highly eccentric orbit, generating bursts of gravitational radiation at each periapse passage. LISA could resolve individual bursts from sources in the nearby Universe. Initial estimates~\cite{Rubbo2006} suggested a LISA event rate of $18\units{yr^{-1}}$, including $15\units{yr^{-1}}$ from the centre of the Milky Way, although this was subsequently revised downwards to $1\units{yr^{-1}}$ with negligible contribution from extragalactic sources~\cite{Hopman2007}. If even a single burst from the Galactic centre is detected during the LISA mission, this will provide an unparalleled probe of the structure of spacetime there.
+An important source of gravitational waves for the proposed space-based gravitational wave detector, the Laser Interferometer Space Antenna (LISA)~\cite{Bender1998, Danzmann2003}, are the inspirals of stellar-mass compact objects into massive black holes in the centres of galaxies. During the last few years of inspiral these systems generate continuous gravitational waves in the LISA band, which will allow the detection of as many as several hundred systems out to redshift $z \sim 1$~\cite{Gair2009}. However, prior to this phase, the inspiraling object spends many years on a highly eccentric orbit, generating bursts of gravitational radiation at each periapse passage. LISA could resolve individual bursts from sources in the nearby Universe. Initial estimates~\cite{Rubbo2006} suggested a LISA event rate of $\sim18\units{yr^{-1}}$, including $\sim15\units{yr^{-1}}$ from the centre of the Milky Way, although this was subsequently revised downwards to $\sim1\units{yr^{-1}}$ with negligible contribution from extragalactic sources~\cite{Hopman2007}. If even a single burst from the Galactic centre is detected during the LISA mission, this will provide an unparalleled probe of the structure of spacetime there.
 
 The spectrum of radiation from these bursts will be well approximated by the spectrum of a parabolic orbit.\footnote{We use ``parabolic'' to refer to marginally bound orbits. Marginally bound Keplerian orbits are parabola; in curved spacetimes they do not retain such a simple shape.} In this note we derive an analytic approximation to this spectrum by taking the limit of the Peters and Matthews~\cite{Peters1963, Peters1964} (PM) energy spectrum for eccentric Keplerian binaries. We show that the peak of the spectrum depends primarily on the orbital periapse and only weakly on the eccentricity. We also estimate the range of validity of the approximation (in \secref{application}) by comparing to numerical Teukolsky data, finding that it is a good approximation for equatorial orbits in Kerr with periapse $r_{p} \gtrsim 20M$. The parabolic spectrum takes a neat analytic form that has not previously appeared in the literature. We therefore hope this note will be a useful resource for future work on gravitational radiation from high eccentricity orbits.
 
@@ -271,9 +271,9 @@ The approach of Peters and Matthews assumes Keplerian orbits in flat spacetime. 
 % Figure:
 \resizebox{7.5cm}{!}{\includegraphics{Ratio.eps}}%
 \end{psfrags}%
-\caption{Ratio of the total energy radiated as calculated using the Peters and Matthews~\cite{Peters1963} approach to that calculated by Martel~\cite{Martel2004a} using black hole perturbation theory (solid line), and the reciprocal of the number of rotations $1/N$ (dashed line) versus periapse radius $r_{p}$. The latter approach should give more accurate results. The Keplerian limit corresponds to $N = 1$.\label{fig:Ratio}}
+\caption{Ratio of the total energy radiated as calculated using the Peters and Matthews~\cite{Peters1963} approach to that calculated by Martel~\cite{Martel2004a} using black hole perturbation theory (solid line) versus periapse radius $r_{p}$. The latter approach should give more accurate results. Also shown is the reciprocal of the number of rotations $1/N$ (dashed line). The Keplerian limit corresponds to $N = 1$.\label{fig:Ratio}}
 \end{figure}
-\Figref{Ratio} shows how the ratio of energies follows the number of rotations, defined as $N = {\Delta \phi}/{2\pi}$, where $\Delta \phi$ is the total change in the azimuthal angle over an orbit. As $N$ increases the PM approximation worsens because the Keplerian orbit does not include this extra rotation. The accuracy of the PM result deteriorates rapidly once the orbit transitions to a zoom-whirl trajectory and is therefore far from parabolic in shape.
+\Figref{Ratio} also shows how the ratio of energies follows the number of rotations, defined as $N = {\Delta \phi}/{2\pi}$, where $\Delta \phi$ is the total change in the azimuthal angle over one orbit. As $N$ increases the PM approximation worsens because the Keplerian orbit does not include this extra rotation. The accuracy of the PM result deteriorates rapidly once the orbit transitions to a zoom-whirl trajectory and is therefore far from parabolic in shape.
 
 The PM result is accurate to $\sim 10\%$ for orbits with $N \lesssim 1.1$. We will adopt this as a cutoff point. For an equatorial orbit in Kerr spacetime
 \begin{eqnarray}
@@ -292,7 +292,7 @@ and the two non-zero roots of the cubic $w^2$
 \begin{equation}
 r_{p,\,1} = \frac{L_z^2}{4M} \pm \sqrt{\frac{L_z^4}{16M^2} - (L_z -a)^2};
 \end{equation}
-the periapsis is the larger root $r_{p} > r_1$. The integral may be rewritten as
+the periapsis is the larger root $r_{p} > r_1$. This equation implictly gives $L_z$ as a function of $r_p$. The integral may be rewritten as
 \begin{equation}
 N = \frac{L_z}{\pi\sqrt{2M}}\intd{r_{p}}{\infty}{\recip{w}\left(1 + \frac{\alpha_+}{r-r_+} + \frac{\alpha_-}{r-r_-}\right)}{r},
 \end{equation}
@@ -318,7 +318,7 @@ where $K(m) = \int_{0}^{\pi/2}{\dd\vartheta/\sqrt{1-m\sin^2\vartheta}}$ is the c
 \psfrag{s04}[b][b]{\color[rgb]{0,0,0}\setlength{\tabcolsep}{0pt}\begin{tabular}{c}{\Large$r_{p}/M$}\end{tabular}}%
 %
 % xticklabels:
-\psfrag{x01}[t][t]{-1.0}%
+\psfrag{x01}[t][t]{-1.0}% 
 \psfrag{x02}[t][t]{-0.5}%
 \psfrag{x03}[t][t]{0.0}%
 \psfrag{x04}[t][t]{0.5}%
@@ -334,7 +334,7 @@ where $K(m) = \int_{0}^{\pi/2}{\dd\vartheta/\sqrt{1-m\sin^2\vartheta}}$ is the c
 \psfrag{v07}[r][r]{19}%
 \psfrag{v08}[r][r]{20}%
 \psfrag{v09}[r][r]{21}%
-\psfrag{v10}[r][r]{22}%
+\psfrag{v10}[r][r]{22}% 
 %
 % Figure:
 \resizebox{7cm}{!}{\includegraphics{N_peri.eps}}%
@@ -347,7 +347,7 @@ Non-equatorial orbits are more complicated because of the additional precession 
 
 \subsection{Astrophysical Implications}
 
-Considering bursts from the Galactic centre, orbits with periapses of $r_{p} \lesssim 120 M$ could generate bursts that would be detectable with LISA~\cite{Rubbo2006, Hopman2007}. It is therefore likely that any such burst that was detected would be in the regime or validity of the Peters and Matthews approach, $r_{p} \gtrsim 20 M$ for equatorial orbits. The results described in this note will therefore have application in that context and it should be possible to explore the majority of parameter space using this approximation. The most interesting orbits, those which come deep within the strong-field region of the black hole's spacetime, will be beyond the range of validity of this approximation, but these will be a small subset of all the events.
+Considering bursts from the Galactic centre, orbits with periapses of $r_{p} \lesssim 120 M$ could generate bursts that would be detectable with LISA~\cite{Rubbo2006, Hopman2007}. It is therefore likely that any such burst that was detected would be in the regime of validity of the Peters and Matthews approach, $r_{p} \gtrsim 20 M$ for equatorial orbits. The results described in this note will therefore have application in that context and it should be possible to explore the majority of parameter space using this approximation. The most interesting orbits, those which come deep within the strong-field region of the black hole's spacetime, will be beyond the range of validity of this approximation, but these represent a small subset of all plausible events.
 
 \begin{acknowledgments}
 CPLB is supported by an STFC studentship. JRG's work is supported by the Royal Society.
