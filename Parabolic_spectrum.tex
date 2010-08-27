@@ -1,5 +1,5 @@
 \documentclass[aps,prd,amsfonts,amssymb,amsmath,nofootinbib,floatfix,reprint,showpacs,groupedaddress]{revtex4-1}
-\usepackage{graphicx,color,psfrag}
+\usepackage{graphicx}
 \usepackage{hyperref}
 
 \newcommand{\eqnref}[1]{(\ref{eq:#1})}
@@ -163,37 +163,7 @@ where we have used the limit
 \end{eqnarray}
 \Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter (cf. Fig.~3 of Peters and Matthews~\cite{Peters1963}). Although more power is radiated into higher harmonics, the peak of the spectrum does not move much: it is always between $f = f_{c}$ and $f = 2 f_{c}$, with $f = 2 f_{c}$ for $e = 0$ and $f \simeq 1.637 f_{c}$ for $e = 1$.
 \begin{figure}
-\begin{psfrags}%
-\psfragscanon%
-%
-% text strings:
-\psfrag{s03}[t][t]{\color[rgb]{0,0,0}\setlength{\tabcolsep}{0pt}\begin{tabular}{c}{\Large$f/f_{c}$}\end{tabular}}%
-\psfrag{s04}[b][b]{\color[rgb]{0,0,0}\setlength{\tabcolsep}{0pt}\begin{tabular}{c}{\Large$\ell(n,e)$}\end{tabular}}%
-%
-% xticklabels:
-\psfrag{x01}[t][t]{0}%
-\psfrag{x02}[t][t]{1}%
-\psfrag{x03}[t][t]{2}%
-\psfrag{x04}[t][t]{3}%
-\psfrag{x05}[t][t]{4}%
-\psfrag{x06}[t][t]{5}%
-\psfrag{x07}[t][t]{6}%
-%
-% yticklabels:
-\psfrag{v01}[r][r]{0}%
-\psfrag{v02}[r][r]{5}%
-\psfrag{v03}[r][r]{10}%
-\psfrag{v04}[r][r]{15}%
-\psfrag{v05}[r][r]{20}%
-\psfrag{v06}[r][r]{25}%
-\psfrag{v07}[r][r]{30}%
-\psfrag{v08}[r][r]{35}%
-\psfrag{v09}[r][r]{40}%
-\psfrag{v10}[r][r]{45}%
-%
-% Figure:
-\resizebox{7cm}{!}{\includegraphics{ell.eps}}%
-\end{psfrags}%
+\includegraphics[width=75mm]{ell_1.eps}
 \caption{The relative energy (per orbit) spectrum $\ell(n,e)$ for $e = 0.2$ (heavy line), $e = 0.5$ (medium line), $e = 0.7$ (light line), and our limiting result for $e = 1$ (dashed line) versus frequency.\label{fig:ell}}
 \end{figure}
 
@@ -232,45 +202,7 @@ The two total energies are consistent, $E\sub{int} = E\sub{sum}$.
 
 The approach of Peters and Matthews assumes Keplerian orbits in flat spacetime. This should be a valid approximation in the weak-field regime far from a massive body. To find the limit of this approximation, we can compare the PM results with those from more accurate techniques. Energy spectra for parabolic orbits do not seem to be available in the literature yet, so we will make do with the total energy fluxes calculated by Martel~\cite{Martel2004a}, who uses time-domain black hole perturbation theory for a Schwarzschild black hole of mass $M$. \Figref{Ratio} shows the ratio of the two energies as a function of periapse distance. As expected the PM result is more accurate for larger periapses. The agreement worsens as the periapsis decreases. At $r_{p} = 4 M$, corresponding to the radius of the innermost stable circular orbit (ISCO), the energy flux calculated by Martel diverges, so the ratio tends to zero. This divergence is because in Schwarzschild (or Kerr) spacetime a parabolic orbit may have a zoom-whirl structure where it undergoes a number of near circular rotations (whirls) about the black hole. As the radius of the ISCO is approached, the number of whirls tends to infinity (in the absence of radiation reaction), so an infinite amount of energy is radiated.
 \begin{figure}
-\begin{psfrags}%
-\psfragscanon%
-%
-% text strings:
-\psfrag{s07}[t][t]{\color[rgb]{0,0,0}\setlength{\tabcolsep}{0pt}\begin{tabular}{c}{\Large$r_p/M$}\end{tabular}}%
-\psfrag{s08}[b][b]{\color[rgb]{0,0,0}\setlength{\tabcolsep}{0pt}\begin{tabular}{c}{\Large$E_\text{PM}/E_\text{Martel}$}\end{tabular}}%
-\psfrag{s10}[t][t]{\color[rgb]{0,0,0}\setlength{\tabcolsep}{0pt}\begin{tabular}{c}{\Large$1/N$}\end{tabular}}%
-%
-% xticklabels:
-\psfrag{x01}[t][t]{0}%
-\psfrag{x02}[t][t]{5}%
-\psfrag{x03}[t][t]{10}%
-\psfrag{x04}[t][t]{15}%
-\psfrag{x05}[t][t]{20}%
-\psfrag{x06}[t][t]{25}%
-\psfrag{x07}[t][t]{}%
-\psfrag{x08}[t][t]{}%
-\psfrag{x09}[t][t]{}%
-\psfrag{x10}[t][t]{}%
-\psfrag{x11}[t][t]{}%
-\psfrag{x12}[t][t]{}%
-%
-% yticklabels:
-\psfrag{v01}[l][l]{0.0}%
-\psfrag{v02}[l][l]{0.2}%
-\psfrag{v03}[l][l]{0.4}%
-\psfrag{v04}[l][l]{0.6}%
-\psfrag{v05}[l][l]{0.8}%
-\psfrag{v06}[l][l]{1.0}%
-\psfrag{v07}[r][r]{0.0}%
-\psfrag{v08}[r][r]{0.2}%
-\psfrag{v09}[r][r]{0.4}%
-\psfrag{v10}[r][r]{0.6}%
-\psfrag{v11}[r][r]{0.8}%
-\psfrag{v12}[r][r]{1.0}%
-%
-% Figure:
-\resizebox{7.5cm}{!}{\includegraphics{Ratio.eps}}%
-\end{psfrags}%
+\includegraphics[width=75mm]{Ratio_2.eps}
 \caption{Ratio of the total energy radiated as calculated using the Peters and Matthews~\cite{Peters1963} approach to that calculated by Martel~\cite{Martel2004a} using black hole perturbation theory (solid line) versus periapse radius $r_{p}$. The latter approach should give more accurate results. Also shown is the reciprocal of the number of rotations $1/N$ (dashed line). The Keplerian limit corresponds to $N = 1$.\label{fig:Ratio}}
 \end{figure}
 \Figref{Ratio} also shows how the ratio of energies follows the number of rotations, defined as $N = {\Delta \phi}/{2\pi}$, where $\Delta \phi$ is the total change in the azimuthal angle over one orbit. As $N$ increases the PM approximation worsens because the Keplerian orbit does not include this extra rotation. The accuracy of the PM result deteriorates rapidly once the orbit transitions to a zoom-whirl trajectory and is therefore far from parabolic in shape.
@@ -310,35 +242,7 @@ N = \frac{L_z}{\pi}\sqrt{\frac{2}{r_{p}M}}K\left(\frac{r_1}{r_{p}}\right),
 \end{equation}
 where $K(m) = \int_{0}^{\pi/2}{\dd\vartheta/\sqrt{1-m\sin^2\vartheta}}$ is the complete elliptic integral of the first kind. \Figref{N_peri} shows the periapsis for which $N = 1.1$ for a range of spins.
 \begin{figure}
-\begin{psfrags}%
-\psfragscanon%
-%
-% text strings:
-\psfrag{s03}[t][t]{\color[rgb]{0,0,0}\setlength{\tabcolsep}{0pt}\begin{tabular}{c}{\Large$a/M$}\end{tabular}}%
-\psfrag{s04}[b][b]{\color[rgb]{0,0,0}\setlength{\tabcolsep}{0pt}\begin{tabular}{c}{\Large$r_{p}/M$}\end{tabular}}%
-%
-% xticklabels:
-\psfrag{x01}[t][t]{-1.0}% 
-\psfrag{x02}[t][t]{-0.5}%
-\psfrag{x03}[t][t]{0.0}%
-\psfrag{x04}[t][t]{0.5}%
-\psfrag{x05}[t][t]{1.0}%
-%
-% yticklabels:
-\psfrag{v01}[r][r]{13}%
-\psfrag{v02}[r][r]{14}%
-\psfrag{v03}[r][r]{15}%
-\psfrag{v04}[r][r]{16}%
-\psfrag{v05}[r][r]{17}%
-\psfrag{v06}[r][r]{18}%
-\psfrag{v07}[r][r]{19}%
-\psfrag{v08}[r][r]{20}%
-\psfrag{v09}[r][r]{21}%
-\psfrag{v10}[r][r]{22}% 
-%
-% Figure:
-\resizebox{7cm}{!}{\includegraphics{N_peri.eps}}%
-\end{psfrags}%
+\includegraphics[width=75mm]{N_peri_3.eps}
 \caption{Periapse radius corresponding to $N = 1.1$ as a function of spin parameter $a$ (solid line). The curve may be approximated by a straight line $r_{p} = -3.91 a + 17.36M$ (dashed line).\label{fig:N_peri}}
 \end{figure}
 Equatorial orbits with larger periapses should be reasonably approximated by the PM result.
