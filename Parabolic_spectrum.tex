@@ -47,7 +47,7 @@ We derive an analytic expression for the energy spectrum  of gravitational waves
 
 An important source of gravitational waves for the proposed space-based gravitational wave detector, the Laser Interferometer Space Antenna (LISA)~\cite{Bender1998, Danzmann2003}, are the inspirals of stellar-mass compact objects into massive black holes in the centres of galaxies. During the last few years of inspiral these systems generate continuous gravitational waves in the LISA band, which will allow the detection of as many as several hundred systems out to redshift $z \sim 1$~\cite{Gair2009}. However, prior to this phase, the inspiraling object spends many years on a highly eccentric orbit, generating bursts of gravitational radiation at each periapse passage. LISA could resolve individual bursts from sources in the nearby Universe. Initial estimates~\cite{Rubbo2006} suggested a LISA event rate of $\sim18\units{yr^{-1}}$, including $\sim15\units{yr^{-1}}$ from the centre of the Milky Way, although this was subsequently revised downwards to $\sim1\units{yr^{-1}}$ with negligible contribution from extragalactic sources~\cite{Hopman2007}. If even a single burst from the Galactic centre is detected during the LISA mission, this will provide an unparalleled probe of the structure of spacetime there.
 
-The spectrum of radiation from these bursts will be well approximated by the spectrum of a parabolic orbit.\footnote{We use ``parabolic'' to refer to marginally bound orbits. Marginally bound Keplerian orbits are parabola; in curved spacetimes they do not retain such a simple shape.} In this note we derive an analytic approximation to this spectrum by taking the limit of the Peters and Matthews~\cite{Peters1963, Peters1964} (PM) energy spectrum for eccentric Keplerian binaries. We show that the peak of the spectrum depends primarily on the orbital periapse and only weakly on the eccentricity. We also estimate the range of validity of the approximation (in \secref{application}) by comparing to numerical Teukolsky data, finding that it is a good approximation for equatorial orbits in Kerr with periapse $r_{p} \gtrsim 20M$. The parabolic spectrum takes a neat analytic form that has not previously appeared in the literature. We therefore hope this note will be a useful resource for future work on gravitational radiation from high eccentricity orbits.
+The spectrum of radiation from these bursts will be well approximated by the spectrum of a parabolic orbit.\footnote{We use ``parabolic'' to refer to marginally bound orbits. Marginally bound Keplerian orbits are parabola; in curved spacetimes they do not retain such a simple shape.} In this note we derive an analytic approximation to this spectrum by taking the limit of the Peters and Matthews~\cite{Peters1963, Peters1964} (PM) energy spectrum for eccentric Keplerian binaries. We show that the peak of the spectrum depends primarily on the orbital periapse and only weakly on the eccentricity. We also estimate the range of validity of the approximation (in \secref{application}) by comparing to numerical Teukolsky data, finding that it is a good approximation for equatorial orbits in Kerr with periapse $r_{p} \gtrsim 20M$. The parabolic spectrum takes a neat analytic form; we hope this note will be a useful resource for future work on gravitational radiation from high eccentricity orbits.
 
 \section{Parabolic Limit\label{sec:limit}}
 
@@ -76,7 +76,7 @@ where $\omega_{c}$ is defined as the angular frequency of a circular orbit of ra
 E(n) = \frac{2\pi}{\omega_1}P(n);
 \label{eq:E(n)}
 \end{equation}
-as $e \rightarrow 1$ for a parabolic orbit, $\omega_1 \rightarrow 0$ as the orbital period becomes infinite. The energy radiated per orbit is the total energy radiated. The spacing of harmonics is $\Delta\omega = \omega_1$, giving energy spectrum
+as $e \rightarrow 1$ for a parabolic orbit, $\omega_1 \rightarrow 0$ as the orbital period becomes infinite. The energy radiated per orbit is then the total energy radiated. The spacing of harmonics is $\Delta\omega = \omega_1$, giving energy spectrum
 \begin{equation}
 \left.\diff{E}{\omega}\right|_{\omega_n}\omega_1 = E(n).
 \end{equation}
@@ -137,7 +137,7 @@ J'_n(ne) & \sim & -\frac{1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\le
 \end{eqnarray}
 We may re-express the derivative using the recurrence formula (Watson~\cite{Watson1995} 3.71)
 \begin{equation}
-K_{\nu-1}(z) - K_{\nu+1}(z) = -2K'_\nu(z)
+K_{\nu-1}(z) + K_{\nu+1}(z) = -2K'_\nu(z)
 \end{equation}
 to give
 \begin{eqnarray}
@@ -161,10 +161,10 @@ where we have used the limit
 \ell(\tilde{f}) & = & \left[8\tilde{f}^2B(\tilde{f}) - 2\tilde{f}A(\tilde{f})\right]^2 \nonumber \\*
  & & + \left(128\tilde{f}^4 + \frac{4\tilde{f}^2}{3}\right)\left[A(\tilde{f})\right]^2.
 \end{eqnarray}
-\Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter (cf. Fig.~3 of Peters and Matthews~\cite{Peters1963}). Although more power is radiated into higher harmonics, the peak of the spectrum does not move much: it is always between $f = f_{c}$ and $f = 2 f_{c}$, with $f = 2 f_{c}$ for $e = 0$ and $f \simeq 1.637 f_{c}$ for $e = 1$.
+This agrees with the $e \rightarrow 1$ limit of the result derived by Turner for unbound orbits~\cite{Turner1977}. \Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter (cf. Fig.~3 of Peters and Matthews~\cite{Peters1963}). Although more power is radiated into higher harmonics, the peak of the spectrum does not move much: it is always between $f = f_{c}$ and $f = 2 f_{c}$, with $f = 2 f_{c}$ for $e = 0$ and $f \simeq 1.637 f_{c}$ for $e = 1$.
 \begin{figure}
 \includegraphics[width=75mm]{ell_1.eps}
-\caption{The relative energy (per orbit) spectrum $\ell(n,e)$ for $e = 0.2$ (heavy line), $e = 0.5$ (medium line), $e = 0.7$ (light line), and our limiting result for $e = 1$ (dashed line) versus frequency.\label{fig:ell}}
+\caption{The relative energy (per orbit) spectrum $\ell(n,e)$ for $e = 0.2$ (heavy line), $e = 0.5$ (medium line), $e = 0.7$ (light line), and the limiting result for $e = 1$ (dashed line) versus frequency.\label{fig:ell}}
 \end{figure}
 
 \subsection{Total Energy}
