@@ -21,7 +21,7 @@
 
 %\preprint{}
 
-\title{The gravitational wave energy spectrum of a parabolic encounter}
+\title{Gravitational wave energy spectrum of a parabolic encounter}
 
 \author{Christopher P. L. Berry}
 \email[]{cplb2@ast.cam.ac.uk}
@@ -32,7 +32,7 @@
 \date{\today}
 
 \begin{abstract}
-We derive an analytic expression for the energy spectrum  of gravitational waves from a parabolic Keplerian binary by taking the limit of the Peters and Matthews spectrum for eccentric orbits. This demonstrates that the location of the peak of the energy spectrum depends primarily on the orbital periapse rather than the eccentricity. We compare this weak-field result to strong-field calculations and find it is reasonably accurate ($\sim10\%$) provided that the azimuthal and radial orbital frequencies do not differ by more than $\sim10\%$. For equatorial orbits in the Kerr spacetime, this corresponds to periapse radii of $r_{p} \gtrsim 20 M$. These results can be used to model radiation bursts from compact objects on highly eccentric orbits about massive black holes in the local Universe, which could be detected by LISA.
+We derive an analytic expression for the energy spectrum  of gravitational waves from a parabolic Keplerian binary by taking the limit of the Peters and Mathews spectrum for eccentric orbits. This demonstrates that the location of the peak of the energy spectrum depends primarily on the orbital periapse rather than the eccentricity. We compare this weak-field result to strong-field calculations and find it is reasonably accurate ($\sim10\%$) provided that the azimuthal and radial orbital frequencies do not differ by more than $\sim10\%$. For equatorial orbits in the Kerr spacetime, this corresponds to periapse radii of $r_{p} \gtrsim 20 M$. These results can be used to model radiation bursts from compact objects on highly eccentric orbits about massive black holes in the local Universe, which could be detected by the Laser Interferometer Space Antenna (LISA).
 \end{abstract}
 
 % 04.30.-w 	Gravitational waves
@@ -47,13 +47,13 @@ We derive an analytic expression for the energy spectrum  of gravitational waves
 
 An important source of gravitational waves for the proposed space-based gravitational wave detector, the Laser Interferometer Space Antenna (LISA)~\cite{Bender1998, Danzmann2003}, are the inspirals of stellar-mass compact objects into massive black holes in the centres of galaxies. During the last few years of inspiral these systems generate continuous gravitational waves in the LISA band, which will allow the detection of as many as several hundred systems out to redshift $z \sim 1$~\cite{Gair2009}. However, prior to this phase, the inspiraling object spends many years on a highly eccentric orbit, generating bursts of gravitational radiation at each periapse passage. LISA could resolve individual bursts from sources in the nearby Universe. Initial estimates~\cite{Rubbo2006} suggested a LISA event rate of $\sim18\units{yr^{-1}}$, including $\sim15\units{yr^{-1}}$ from the centre of the Milky Way, although this was subsequently revised downwards to $\sim1\units{yr^{-1}}$ with negligible contribution from extragalactic sources~\cite{Hopman2007}. If even a single burst from the Galactic centre is detected during the LISA mission, this will provide an unparalleled probe of the structure of spacetime there.
 
-The spectrum of radiation from these bursts will be well approximated by the spectrum of a parabolic orbit.\footnote{We use ``parabolic'' to refer to marginally bound orbits. Marginally bound Keplerian orbits are parabola; in curved spacetimes they do not retain such a simple shape.} In this note we derive an analytic approximation to this spectrum by taking the limit of the Peters and Matthews~\cite{Peters1963, Peters1964} (PM) energy spectrum for eccentric Keplerian binaries. We show that the peak of the spectrum depends primarily on the orbital periapse and only weakly on the eccentricity. We also estimate the range of validity of the approximation (in \secref{application}) by comparing to numerical Teukolsky data, finding that it is a good approximation for equatorial orbits in Kerr with periapse $r_{p} \gtrsim 20M$. The parabolic spectrum takes a neat analytic form; deriving it from the bound spectrum will allow corrections for high-eccentricity bound orbits to be found in the future. We hope this note will be a useful resource for future work on gravitational radiation from high eccentricity orbits.
+The spectrum of radiation from these bursts will be well approximated by the spectrum of a parabolic orbit.\footnote{We use ``parabolic'' to refer to marginally bound orbits. Marginally bound Keplerian orbits are parabola; in curved spacetimes they do not retain such a simple shape.} In this note we derive an analytic approximation to this spectrum by taking the limit of the Peters and Mathews~\cite{Peters1963, Peters1964} (PM) energy spectrum for eccentric Keplerian binaries. We show that the peak of the spectrum depends primarily on the orbital periapse and only weakly on the eccentricity. We also estimate the range of validity of the approximation (in \secref{application}) by comparing to numerical Teukolsky data, finding that it is a good approximation for equatorial orbits in Kerr with periapse $r_{p} \gtrsim 20M$. The parabolic spectrum takes a neat analytic form; deriving it from the bound spectrum will allow corrections for high-eccentricity bound orbits to be found in the future. We hope this note will be a useful resource for future work on gravitational radiation from high-eccentricity orbits.
 
 \section{Parabolic Limit\label{sec:limit}}
 
 \subsection{Energy Spectrum}
 
-For an orbit of eccentricity $e$ with periapse radius $r_{p}$, Peters and Matthews~\cite{Peters1963} give the power radiated into the $n$th harmonic of the orbital angular frequency as
+For an orbit of eccentricity $e$ with periapse radius $r_{p}$, Peters and Mathews~\cite{Peters1963} give the power radiated into the $n$th harmonic of the orbital angular frequency as
 \begin{equation}
 P(n) = \frac{32}{5}\frac{G^4}{c^5}\frac{M_1^2M_2^2(M_1 + M_2)(1-e)^5}{r_{p}^5}g(n,e)
 \label{eq:PM_P}
@@ -64,14 +64,14 @@ g(n,e) & = & \frac{n^4}{32}\left\{\left[J_{n-2}(ne) - 2eJ_{n-1}(ne) \vphantom{\f
  & & \left. + \frac{2}{n}J_n(ne) + 2eJ_{n+1}(ne) - J_{n+2}(ne)\right]^2 \nonumber \\*
  & & + \left(1 - e^2\right)\left[J_{n-2}(ne) - 2J_n(ne) + J_{n+2}(ne)\right]^2 \nonumber \\*
  & & \left. + \frac{4}{3n^2}\left[J_n(ne)\right]^2\right\}.
-% Line breaks follow Peters and Matthews paper
+% Line breaks follow Peters and Mathews paper
 \end{eqnarray}
 The Keplerian orbital frequency is
 \begin{equation}
 \omega_1^2 = \frac{G(M_1 + M_2)(1 - e)^3}{r_{p}^3} = (1 - e)^3\omega_{c}^2,
 \label{eq:Kepler_freq}
 \end{equation}
-where $\omega_{c}$ is defined as the angular frequency of a circular orbit of radius $r_{p}$. The energy radiated per orbit into the $n$th harmonic, that is at frequency $\omega_n = n\omega_1$, is
+where $\omega_{c}$ is defined as the angular frequency of a circular orbit of radius $r_{p}$. The energy radiated per orbit into the $n$th harmonic, that is, at frequency $\omega_n = n\omega_1$, is
 \begin{equation}
 E(n) = \frac{2\pi}{\omega_1}P(n);
 \label{eq:E(n)}
@@ -101,7 +101,7 @@ where $\tilde{f} = \omega_n/\omega_{c} = f_n/f\sub{c}$ is a dimensionless freque
 \begin{equation}
 A(\tilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J_n(ne)}{(1-e)^{1/2}}\right\}; \quad B(\tilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J'_n(ne)}{1-e}\right\}.
 \end{equation}
-To give a well defined energy spectrum, both of these must be finite.
+To give a well-defined energy spectrum, both of these must be finite.
 
 The Bessel function has an integral representation
 \begin{equation}
@@ -121,7 +121,7 @@ where $K_\nu(z)$ is a modified Bessel function of the second kind. Using this to
 J_\nu(z) \sim \recip{\pi}\sqrt{\frac{2(\nu - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu -z)^3}{z}}\right).
 \label{eq:J_nu}
 \end{equation}
-For our case
+For our case,
 \begin{equation}
 J_n(ne) \sim \recip{\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right),
 \end{equation}
@@ -135,7 +135,7 @@ To find the derivative we combine \eqnref{J_derivative} and \eqnref{J_nu}, and e
 J'_n(ne) & \sim & -\frac{1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right) \right. \nonumber \\*
  & & \left. + \recip{\tilde{f}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right)\right].
 \end{eqnarray}
-We may re-express the derivative using the recurrence formula (Watson~\cite{Watson1995} 3.71)
+We may re express the derivative using the recurrence formula (Watson~\cite{Watson1995} 3.71)
 \begin{equation}
 K_{\nu-1}(z) + K_{\nu+1}(z) = -2K'_\nu(z)
 \end{equation}
@@ -161,7 +161,7 @@ where we have used the limit
 \ell(\tilde{f}) & = & \left[8\tilde{f}^2B(\tilde{f}) - 2\tilde{f}A(\tilde{f})\right]^2 \nonumber \\*
  & & + \left(128\tilde{f}^4 + \frac{4\tilde{f}^2}{3}\right)\left[A(\tilde{f})\right]^2.
 \end{eqnarray}
-This agrees with the $e =1$ form of the result calculated by Turner, this was computed by direct integration along unbound orbits~\cite{Turner1977}. \Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter (cf. Fig.~3 of Peters and Matthews~\cite{Peters1963}). Although more power is radiated into higher harmonics, the peak of the spectrum does not move much: it is always between $f = f_{c}$ and $f = 2 f_{c}$, with $f = 2 f_{c}$ for $e = 0$ and $f \simeq 1.637 f_{c}$ for $e = 1$.
+This agrees with the $e =1$ form of the result calculated by Turner, which was computed by direct integration along unbound orbits~\cite{Turner1977}. \Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter (cf. Figure~3 of Peters and Mathews~\cite{Peters1963}). Although more power is radiated into higher harmonics, the peak of the spectrum does not move much: it is always between $f = f_{c}$ and $f = 2 f_{c}$, with $f = 2 f_{c}$ for $e = 0$ and $f \simeq 1.637 f_{c}$ for $e = 1$.
 \begin{figure}
 \includegraphics[width=75mm]{ell_1.eps}
 \caption{The relative energy (per orbit) spectrum $\ell(n,e)$ for $e = 0.2$ (heavy line), $e = 0.5$ (medium line), $e = 0.7$ (light line), and the limiting result for $e = 1$ (dashed line) versus frequency.\label{fig:ell}}
@@ -173,7 +173,7 @@ To check the validity of this limit we can calculate the total energy radiated b
 \begin{equation}
 E\sub{sum} = \frac{64\pi}{5}\frac{G^3}{c^5}\frac{M_1^2M_2^2}{r_{p}^2}\omega_{c}(1-e)^{7/2}\sum_n g(n,e),
 \end{equation}
-where we have used equations \eqnref{PM_P}, \eqnref{Kepler_freq} and \eqnref{E(n)}. Peters and Matthews~\cite{Peters1963} provide the result
+where we have used equations \eqnref{PM_P}, \eqnref{Kepler_freq} and \eqnref{E(n)}. Peters and Mathews~\cite{Peters1963} provide the result
 \begin{equation}
 \sum_n g(n,e) = \frac{1 + (73/24)e^2 + (37/96)e^4}{(1-e^2)^{7/2}}.
 \end{equation}
@@ -200,14 +200,14 @@ The two total energies are consistent, $E\sub{int} = E\sub{sum}$.
 
 \subsection{Limit of Approximation}
 
-The approach of Peters and Matthews assumes Keplerian orbits in flat spacetime. This should be a valid approximation in the weak-field regime far from a massive body. To find the limit of this approximation, we can compare the PM results with those from more accurate techniques. Energy spectra for parabolic orbits do not seem to be available in the literature yet, so we will make do with the total energy fluxes calculated by Martel~\cite{Martel2004a}, who uses time-domain black hole perturbation theory for a Schwarzschild black hole of mass $M$. \Figref{Ratio} shows the ratio of the two energies as a function of periapse distance. As expected the PM result is more accurate for larger periapses. The agreement worsens as the periapsis decreases. At $r_{p} = 4 M$, corresponding to the radius of the innermost stable circular orbit (ISCO), the energy flux calculated by Martel diverges, so the ratio tends to zero. This divergence is because in Schwarzschild (or Kerr) spacetime a parabolic orbit may have a zoom-whirl structure where it undergoes a number of near circular rotations (whirls) about the black hole. As the radius of the ISCO is approached, the number of whirls tends to infinity (in the absence of radiation reaction), so an infinite amount of energy is radiated.
+The approach of Peters and Mathews assumes Keplerian orbits in flat spacetime. This should be a valid approximation in the weak-field regime far from a massive body. To find the limit of this approximation, we can compare the PM results with those from more accurate techniques. Energy spectra for parabolic orbits do not seem to be available in the literature yet, so we will make do with the total energy fluxes calculated by Martel~\cite{Martel2004a}, who uses time-domain black hole perturbation theory for a Schwarzschild black hole of mass $M$. \Figref{Ratio} shows the ratio of the two energies as a function of periapse distance. As expected the PM result is more accurate for larger periapses. The agreement worsens as the periapsis decreases. At $r_{p} = 4 M$, corresponding to the radius of the innermost stable circular orbit (ISCO), the energy flux calculated by Martel diverges, so the ratio tends to zero. This divergence is because in Schwarzschild (or Kerr) spacetime a parabolic orbit may have a zoom-whirl structure where it undergoes a number of near circular rotations (whirls) about the black hole. As the radius of the ISCO is approached, the number of whirls tends to infinity (in the absence of radiation reaction), so an infinite amount of energy is radiated.
 \begin{figure}
 \includegraphics[width=75mm]{Ratio_2.eps}
-\caption{Ratio of the total energy radiated as calculated using the Peters and Matthews~\cite{Peters1963} approach to that calculated by Martel~\cite{Martel2004a} using black hole perturbation theory (solid line) versus periapse radius $r_{p}$. The latter approach should give more accurate results. Also shown is the reciprocal of the number of rotations $1/N$ (dashed line). The Keplerian limit corresponds to $N = 1$.\label{fig:Ratio}}
+\caption{Ratio of the total energy radiated as calculated using the Peters and Mathews~\cite{Peters1963} approach to that calculated by Martel~\cite{Martel2004a} using black hole perturbation theory (solid line) versus periapse radius $r_{p}$. The latter approach should give more accurate results. Also shown is the reciprocal of the number of rotations $1/N$ (dashed line). The Keplerian limit corresponds to $N = 1$.\label{fig:Ratio}}
 \end{figure}
-\Figref{Ratio} also shows how the ratio of energies follows the number of rotations, defined as $N = {\Delta \phi}/{2\pi}$, where $\Delta \phi$ is the total change in the azimuthal angle over one orbit. As $N$ increases the PM approximation worsens because the Keplerian orbit does not include this extra rotation. The accuracy of the PM result deteriorates rapidly once the orbit transitions to a zoom-whirl trajectory and is therefore far from parabolic in shape.
+\Figref{Ratio} also shows how the ratio of energies follows the number of rotations, defined as $N = {\Delta \phi}/{2\pi}$, where $\Delta \phi$ is the total change in the azimuthal angle over one orbit. As $N$ increases, the PM approximation worsens because the Keplerian orbit does not include this extra rotation. The accuracy of the PM result deteriorates rapidly once the orbit transitions to a zoom-whirl trajectory and is therefore far from parabolic in shape.
 
-The PM result is accurate to $\sim 10\%$ for orbits with $N \lesssim 1.1$. We will adopt this as a cutoff point. For an equatorial orbit in Kerr spacetime
+The PM result is accurate to $\sim 10\%$ for orbits with $N \lesssim 1.1$. We will adopt this as a cutoff point. For an equatorial orbit in Kerr spacetime,
 \begin{eqnarray}
 N & = & \recip{\pi}\intd{r_{p}}{\infty}{\diff{\phi}{r}}{r} \nonumber \\*
  & = & \frac{L_z}{\pi\sqrt{2M}}\intd{r_{p}}{\infty}{\frac{r^2 - 2M(1 - a/L_z)r}{(r^2 - 2Mr + a^2)w}}{r},
@@ -220,7 +220,7 @@ $L_z$ is the specific angular momentum about the $z$-axis; $a$ is the spin param
 \begin{equation}
 r_\pm = M \pm \sqrt{M^2 - a^2},
 \end{equation}
-and the two non-zero roots of the cubic $w^2$
+and the two nonzero roots of the cubic $w^2$
 \begin{equation}
 r_{p,\,1} = \frac{L_z^2}{4M} \pm \sqrt{\frac{L_z^4}{16M^2} - (L_z -a)^2};
 \end{equation}
@@ -247,14 +247,14 @@ where $K(m) = \int_{0}^{\pi/2}{\dd\vartheta/\sqrt{1-m\sin^2\vartheta}}$ is the c
 \end{figure}
 Equatorial orbits with larger periapses should be reasonably approximated by the PM result.
 
-Non-equatorial orbits are more complicated because of the additional precession of the orbital plane. This extra rotation will mean that the PM approach is less accurate; however, this should be sub-dominant to the perihelion precession effect and so the cutoff periapsis should not be much larger than for the equatorial case.
+Nonequatorial orbits are more complicated because of the additional precession of the orbital plane. This extra rotation will mean that the PM approach is less accurate; however, this should be subdominant to the perihelion precession effect and so the cutoff periapsis should not be much larger than for the equatorial case.
 
 \subsection{Astrophysical Implications}
 
-Considering bursts from the Galactic centre, orbits with periapses of $r_{p} \lesssim 120 M$ could generate bursts that would be detectable with LISA~\cite{Rubbo2006, Hopman2007}. It is therefore likely that any such burst that was detected would be in the regime of validity of the Peters and Matthews approach, $r_{p} \gtrsim 20 M$ for equatorial orbits. The results described in this note will therefore have application in that context and it should be possible to explore the majority of parameter space using this approximation. The most interesting orbits, those which come deep within the strong-field region of the black hole's spacetime, will be beyond the range of validity of this approximation, but these represent a small subset of all plausible events.
+Considering bursts from the Galactic centre, orbits with periapses of $r_{p} \lesssim 120 M$ could generate bursts that would be detectable with LISA~\cite{Rubbo2006, Hopman2007}. It is therefore likely that any such burst that was detected would be in the regime of validity of the Peters and Mathews approach, $r_{p} \gtrsim 20 M$ for equatorial orbits. The results described in this note will therefore have application in that context, and it should be possible to explore the majority of parameter space using this approximation. The most interesting orbits, those which come deep within the strong-field region of the black hole's spacetime, will be beyond the range of validity of this approximation, but these represent a small subset of all plausible events.
 
 \begin{acknowledgments}
-CPLB is supported by an STFC studentship. JRG's work is supported by the Royal Society.
+CPLB is supported by STFC. JRG is supported by the Royal Society.
 \end{acknowledgments}
 
 \bibliography{Parabolic_spectrum}
