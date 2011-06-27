@@ -160,9 +160,9 @@ where we have used the limit
 \ell(\tilde{f}) & = & \left[8\tilde{f}^2B(\tilde{f}) - 2\tilde{f}A(\tilde{f})\right]^2 \nonumber \\*
  & & + \left(128\tilde{f}^4 + \frac{4\tilde{f}^2}{3}\right)\left[A(\tilde{f})\right]^2.
 \end{eqnarray}
-This agrees with the $e =1$ form of Turner's result, which was computed by direct integration along unbound orbits~\cite{Turner1977}. \Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter (cf. Figure~3 of Peters and Mathews~\cite{Peters1963}). Although more power is radiated into higher harmonics, the peak of the spectrum does not move much: it is always between $f = f\sub{c}$ and $f = 2 f\sub{c}$, with $f = 2 f\sub{c}$ for $e = 0$ and $f \simeq 1.637 f\sub{c}$ for $e = 1$.
+This agrees with the $e = 1$ form of Turner's result, which was computed by direct integration along unbound orbits~\cite{Turner1977}. \Figref{ell} shows how $\ell(n,e)$ changes with eccentricity including our result for a parabolic encounter (cf. Figure~3 of Peters and Mathews~\cite{Peters1963}). Although more power is radiated into higher harmonics, the peak of the spectrum does not move much: it is always between $f = f\sub{c}$ and $f = 2 f\sub{c}$, with $f = 2 f\sub{c}$ for $e = 0$ and $f \simeq 1.637 f\sub{c}$ for $e = 1$.
 \begin{figure}
-\includegraphics[width=75mm]{ell_1.eps}
+\includegraphics[width=75mm]{Fig_ell.eps}
 \caption{The relative energy (per orbit) spectrum $\ell(n,e)$ for $e = 0.2$ (heavy line), $e = 0.5$ (medium line), $e = 0.7$ (light line), and the limiting result for $e = 1$ (dashed line) versus frequency.\label{fig:ell}}
 \end{figure}
 
@@ -199,9 +199,9 @@ The two total energies are consistent, $E\sub{int} = E\sub{sum}$.
 
 \subsection{Limit of Approximation}
 
-The PM approach assumes Keplerian orbits in flat spacetime. This should be a valid approximation in the weak-field regime far from a massive body. To find the limit of this approximation, we can compare the PM results with those from more accurate techniques. Energy spectra for parabolic orbits do not seem to be available in the literature yet, so we will make do with the total energy fluxes calculated by Martel~\cite{Martel2004a}, who uses time-domain black hole perturbation theory for a Schwarzschild black hole of mass $M$. \Figref{Ratio} shows the ratio of the two energies as a function of periapse distance. As expected the PM result is more accurate for larger periapses. The agreement worsens as the periapsis decreases. At $r\sub{p} = 4 M$, corresponding to the radius of the innermost stable circular orbit (ISCO), the energy flux calculated by Martel diverges, so the ratio tends to zero. This divergence is because in Schwarzschild (or Kerr) spacetime a parabolic orbit may have a zoom-whirl structure where it undergoes a number of near circular rotations (whirls) about the black hole. As the radius of the ISCO is approached, the number of whirls tends to infinity (in the absence of radiation reaction), so an infinite amount of energy is radiated.
+The PM approach assumes Keplerian orbits in flat spacetime. This should be a valid approximation in the weak-field regime far from a massive body. To find the limit of this approximation, we can compare the PM results with those from more accurate techniques. Energy spectra for parabolic orbits do not seem to be available in the literature yet, so we will make do with the total energy fluxes calculated by Martel~\cite{Martel2004a}, who uses time-domain black hole perturbation theory for a Schwarzschild black hole of mass $M$. \Figref{Ratio} shows the ratio of the two energies as a function of periapse distance. As expected the PM result is more accurate for larger periapses. The agreement worsens as the periapsis decreases. At $r\sub{p} = 4 M$, corresponding to the radius of the innermost stable parabolic orbit (ISPO), the energy flux calculated by Martel diverges, so the ratio tends to zero. This divergence is because in Schwarzschild (or Kerr) spacetime a parabolic orbit may have a zoom-whirl structure where it undergoes a number of near circular rotations (whirls) about the black hole. As the radius of the ISPO is approached, the number of whirls tends to infinity (in the absence of radiation reaction), so an infinite amount of energy is radiated.
 \begin{figure}
-\includegraphics[width=75mm]{Ratio_2.eps}
+\includegraphics[width=75mm]{Fig_Ratio.eps}
 \caption{Ratio of the total energy radiated as calculated using the Peters and Mathews~\cite{Peters1963} approach to that calculated by Martel~\cite{Martel2004a} using black hole perturbation theory (solid line) versus periapse radius $r\sub{p}$. The latter approach should give more accurate results. Also shown is the reciprocal of the number of rotations $1/N$ (dashed line). The Keplerian limit corresponds to $N = 1$.\label{fig:Ratio}}
 \end{figure}
 \Figref{Ratio} also shows how the ratio of energies follows the number of rotations, defined as $N = {\Delta \phi}/{2\pi}$, where $\Delta \phi$ is the total change in the azimuthal angle over one orbit. As $N$ increases, the PM approximation worsens because the Keplerian orbit does not include this extra rotation. The accuracy of the PM result deteriorates rapidly once the orbit transitions to a zoom-whirl trajectory and is therefore far from parabolic in shape.
@@ -241,7 +241,7 @@ N = \frac{L_z}{\pi}\sqrt{\frac{2}{r\sub{p}M}}K\left(\frac{r_1}{r\sub{p}}\right),
 \end{equation}
 where $K(m) = \int_{0}^{\pi/2}{\dd\vartheta/\sqrt{1-m\sin^2\vartheta}}$ is the complete elliptic integral of the first kind. \Figref{N_peri} shows the periapsis for which $N = 1.1$ for a range of spins.
 \begin{figure}
-\includegraphics[width=75mm]{N_peri_3.eps}
+\includegraphics[width=75mm]{Fig_N_peri.eps}
 \caption{Periapse radius corresponding to $N = 1.1$ as a function of spin parameter $a$ (solid line). The curve may be approximated by a straight line $r\sub{p} = -3.91 a + 17.36M$ (dashed line).\label{fig:N_peri}}
 \end{figure}
 Equatorial orbits with larger periapses should be reasonably approximated by the PM result.
