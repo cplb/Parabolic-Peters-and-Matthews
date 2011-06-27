@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{12}%
+\begin{thebibliography}{14}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -185,4 +185,22 @@
   {10.1103/PhysRevD.50.3816} {\bibfield  {journal} {\bibinfo  {journal} {Phys.\
   Rev.\ D},\ }\textbf {\bibinfo {volume} {50}},\ \bibinfo {pages} {3816}
   (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kocsis}\ \emph {et~al.}(2006)\citenamefont {Kocsis},
+  \citenamefont {Gaspar},\ and\ \citenamefont {Marka}}]{Kocsis2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Kocsis}}, \bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont {Gaspar}},
+  \ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Marka}},\ }\Doi
+  {10.1086/505641} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys.\
+  J.},\ }\textbf {\bibinfo {volume} {648}},\ \bibinfo {pages} {411} (\bibinfo
+  {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {O'Leary}\ \emph {et~al.}(2009)\citenamefont
+  {O'Leary}, \citenamefont {Kocsis},\ and\ \citenamefont {Loeb}}]{O'Leary2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {O'Leary}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Kocsis}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Loeb}},\ }\Doi
+  {10.1111/j.1365-2966.2009.14653.x} {\bibfield  {journal} {\bibinfo  {journal}
+  {Mon.\ Not.\ R.\ Astron.\ Soc.},\ }\textbf {\bibinfo {volume} {395}},\
+  \bibinfo {pages} {2127} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
 \end{thebibliography}%
