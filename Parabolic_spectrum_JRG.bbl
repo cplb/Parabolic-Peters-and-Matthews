@@ -1,0 +1,103 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Bender et~al.}(1998)\citenamefont{Bender, Brillet,
+  Ciufolini, Cruise, Cutler, Danzmann, Fidecaro, Folkner, Hough, McNamara
+  et~al.}}]{Bender1998}
+\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Bender}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Brillet}},
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Ciufolini}},
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Cruise}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Cutler}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Danzmann}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Fidecaro}},
+  \bibinfo{author}{\bibfnamefont{W.~M.} \bibnamefont{Folkner}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Hough}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{McNamara}},
+  \bibnamefont{et~al.}, \emph{\bibinfo{title}{{LISA Pre-Phase A Report}}}
+  (\bibinfo{year}{1998}).
+
+\bibitem[{\citenamefont{Danzmann and R\"{u}diger}(2003)}]{Danzmann2003}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Danzmann}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{R\"{u}diger}},
+  \bibinfo{journal}{Classical and Quantum Gravity}
+  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{S1} (\bibinfo{year}{2003}),
+  ISSN \bibinfo{issn}{0264-9381},
+  \urlprefix\url{http://stacks.iop.org/0264-9381/20/i=10/a=301}.
+
+\bibitem[{\citenamefont{Rubbo et~al.}(2006)\citenamefont{Rubbo,
+  Holley-Bockelmann, and Finn}}]{Rubbo2006}
+\bibinfo{author}{\bibfnamefont{L.~J.} \bibnamefont{Rubbo}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Holley-Bockelmann}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{L.~S.} \bibnamefont{Finn}},
+  \bibinfo{journal}{The Astrophysical Journal} \textbf{\bibinfo{volume}{649}},
+  \bibinfo{pages}{L25} (\bibinfo{year}{2006}), ISSN \bibinfo{issn}{0004-637X},
+  \urlprefix\url{http://stacks.iop.org/1538-4357/649/i=1/a=L25}.
+
+\bibitem[{\citenamefont{Hopman et~al.}(2007)\citenamefont{Hopman, Freitag, and
+  Larson}}]{Hopman2007}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Hopman}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Freitag}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~L.} \bibnamefont{Larson}},
+  \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \textbf{\bibinfo{volume}{378}}, \bibinfo{pages}{129} (\bibinfo{year}{2007}),
+  ISSN \bibinfo{issn}{0035-8711},
+  \urlprefix\url{http://arxiv.org/abs/astro-ph/0612337}.
+
+\bibitem[{\citenamefont{Peters and Mathews}(1963)}]{Peters1963}
+\bibinfo{author}{\bibfnamefont{P.~C.} \bibnamefont{Peters}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Mathews}},
+  \bibinfo{journal}{Physical Review} \textbf{\bibinfo{volume}{131}},
+  \bibinfo{pages}{435} (\bibinfo{year}{1963}), ISSN \bibinfo{issn}{0031-899X},
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRev.131.435}.
+
+\bibitem[{\citenamefont{Peters}(1964)}]{Peters1964}
+\bibinfo{author}{\bibfnamefont{P.~C.} \bibnamefont{Peters}},
+  \bibinfo{journal}{Physical Review} \textbf{\bibinfo{volume}{136}},
+  \bibinfo{pages}{B1224} (\bibinfo{year}{1964}), ISSN
+  \bibinfo{issn}{0031-899X},
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRev.136.B1224}.
+
+\bibitem[{\citenamefont{Watson}(1995)}]{Watson1995}
+\bibinfo{author}{\bibfnamefont{G.~N.} \bibnamefont{Watson}},
+  \emph{\bibinfo{title}{{A Treatise on the Theory of Bessel Functions}}},
+  Cambridge Mathematical Library (\bibinfo{publisher}{Cambridge University
+  Press}, \bibinfo{address}{Cambridge}, \bibinfo{year}{1995}),
+  \bibinfo{edition}{2nd} ed., ISBN \bibinfo{isbn}{0-521-48391-3}.
+
+\bibitem[{\citenamefont{Martel}(2004)}]{Martel2004a}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Martel}},
+  \bibinfo{journal}{Physical Review D} \textbf{\bibinfo{volume}{69}},
+  \bibinfo{pages}{044025(20)} (\bibinfo{year}{2004}), ISSN
+  \bibinfo{issn}{1550-7998},
+  \urlprefix\url{http://prd.aps.org/abstract/PRD/v69/i4/e044025}.
+
+\bibitem[{\citenamefont{Gradshteyn and Ryzhik}(2000)}]{Gradshteyn2000}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Gradshteyn}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Ryzhik}},
+  \emph{\bibinfo{title}{{Table of Integrals, Series, and Products}}}
+  (\bibinfo{publisher}{Academic Press}, \bibinfo{address}{London},
+  \bibinfo{year}{2000}), \bibinfo{edition}{sixth} ed., ISBN
+  \bibinfo{isbn}{0-12-294757-6}.
+
+\bibitem[{\citenamefont{Cutler et~al.}(1994)\citenamefont{Cutler, Kennefick,
+  and Poisson}}]{Cutler1994}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Cutler}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Kennefick}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Poisson}},
+  \bibinfo{journal}{Physical Review D} \textbf{\bibinfo{volume}{50}},
+  \bibinfo{pages}{3816} (\bibinfo{year}{1994}), ISSN \bibinfo{issn}{0556-2821},
+  \urlprefix\url{http://prd.aps.org/abstract/PRD/v50/i6/p3816_1}.
+
+\end{thebibliography}

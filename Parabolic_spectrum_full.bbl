@@ -1,0 +1,185 @@
+%merlin.mbs 2010-03-15 4.21a (PWD, AO, DPC)
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{11}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\@ifxundefined \urlstyle {%
+  \providecommand \doi  [0]{\begingroup \@sanitize@url \@doi}%
+  \providecommand \@doi [1]{\endgroup \@@startlink {\doibase
+  #1}doi:\discretionary {}{}{}#1\@@endlink }%
+}{%
+  \providecommand \doi  [0]{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url }%
+}%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \Doi [0]{\begingroup \@sanitize@url \@Doi }%
+\providecommand \@Doi  [1]{\endgroup\@@startlink{\doibase#1}\@@Doi}%
+\providecommand \@@Doi [1]{#1\@@endlink}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+%</preamble>
+\bibitem [{\citenamefont {Peters}\ and\ \citenamefont
+  {Mathews}(1963)}]{Peters1963}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~C.}\ \bibnamefont
+  {Peters}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Mathews}},\ }\Doi {10.1103/PhysRev.131.435} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review},\ }\textbf {\bibinfo {volume} {131}},\ \bibinfo
+  {pages} {435} (\bibinfo {year} {1963})},\ ISSN \bibinfo {issn}
+  {0031-899X}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peters}(1964)}]{Peters1964}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~C.}\ \bibnamefont
+  {Peters}},\ }\Doi {10.1103/PhysRev.136.B1224} {\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review},\ }\textbf {\bibinfo {volume} {136}},\ \bibinfo
+  {pages} {B1224} (\bibinfo {year} {1964})},\ ISSN \bibinfo {issn}
+  {0031-899X}\BibitemShut {NoStop}%
+\bibitem [{Note1()}]{Note1}%
+  \BibitemOpen
+  \bibinfo {note} {We use ``parabolic'' to refer to marginally bound orbits.
+  Marginally bound Keplerian orbits are parabola; in curved spacetimes they do
+  not retain such a simple shape.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Bender}\ \emph {et~al.}(1998)\citenamefont {Bender},
+  \citenamefont {Brillet}, \citenamefont {Ciufolini}, \citenamefont {Cruise},
+  \citenamefont {Cutler}, \citenamefont {Danzmann}, \citenamefont {Fidecaro},
+  \citenamefont {Folkner}, \citenamefont {Hough}, \citenamefont {McNamara},
+  \citenamefont {Peterseim}, \citenamefont {Robertson}, \citenamefont
+  {Rodrigues}, \citenamefont {R\"{u}diger}, \citenamefont {Sandford},
+  \citenamefont {Sch\"{a}fer}, \citenamefont {Schilling}, \citenamefont
+  {Schutz}, \citenamefont {Speake}, \citenamefont {Stebbins}, \citenamefont
+  {Sumner}, \citenamefont {Touboul}, \citenamefont {Vinet}, \citenamefont
+  {Vitale}, \citenamefont {Ward},\ and\ \citenamefont {Winkler}}]{Bender1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Bender}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Brillet}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Ciufolini}}, \bibinfo
+  {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Cruise}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Cutler}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Danzmann}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Fidecaro}}, \bibinfo {author} {\bibfnamefont {W.~M.}\
+  \bibnamefont {Folkner}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Hough}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {McNamara}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Peterseim}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Robertson}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Rodrigues}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {R\"{u}diger}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Sandford}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Sch\"{a}fer}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Schilling}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Schutz}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Speake}}, \bibinfo {author} {\bibfnamefont {R.~T.}\
+  \bibnamefont {Stebbins}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sumner}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Touboul}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Vinet}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Vitale}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Ward}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Winkler}},\ }\href@noop {} {\enquote
+  {\bibinfo {title} {{LISA Pre-Phase A Report}},}\ } (\bibinfo {year}
+  {1998})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Danzmann}\ and\ \citenamefont
+  {R\"{u}diger}(2003)}]{Danzmann2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Danzmann}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {R\"{u}diger}},\ }\Doi {10.1088/0264-9381/20/10/301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical and Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {20}},\ \bibinfo {pages} {S1} (\bibinfo {year} {2003})},\ ISSN
+  \bibinfo {issn} {0264-9381}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rubbo}\ \emph {et~al.}(2006)\citenamefont {Rubbo},
+  \citenamefont {Holley-Bockelmann},\ and\ \citenamefont {Finn}}]{Rubbo2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont
+  {Rubbo}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Holley-Bockelmann}}, \ and\ \bibinfo {author} {\bibfnamefont {L.~S.}\
+  \bibnamefont {Finn}},\ }\Doi {10.1086/508326} {\bibfield  {journal} {\bibinfo
+   {journal} {The Astrophysical Journal},\ }\textbf {\bibinfo {volume} {649}},\
+  \bibinfo {pages} {L25} (\bibinfo {year} {2006})},\ ISSN \bibinfo {issn}
+  {0004-637X}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hopman}\ \emph {et~al.}(2007)\citenamefont {Hopman},
+  \citenamefont {Freitag},\ and\ \citenamefont {Larson}}]{Hopman2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hopman}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Freitag}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont {Larson}},\ }\Doi
+  {10.1111/j.1365-2966.2007.11758.x} {\bibfield  {journal} {\bibinfo  {journal}
+  {Monthly Notices of the Royal Astronomical Society},\ }\textbf {\bibinfo
+  {volume} {378}},\ \bibinfo {pages} {129} (\bibinfo {year} {2007})},\ ISSN
+  \bibinfo {issn} {0035-8711}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Watson}(1995)}]{Watson1995}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~N.}\ \bibnamefont
+  {Watson}},\ }\href@noop {} {\emph {\bibinfo {title} {{A Treatise on the
+  Theory of Bessel Functions}}}},\ \bibinfo {edition} {2nd}\ ed.,\ Cambridge
+  Mathematical Library\ (\bibinfo  {publisher} {Cambridge University Press},\
+  \bibinfo {address} {Cambridge},\ \bibinfo {year} {1995})\ ISBN \bibinfo
+  {isbn} {0-521-48391-3}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Martel}(2004)}]{Martel2004a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Martel}},\ }\Doi {10.1103/PhysRevD.69.044025} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review D},\ }\textbf {\bibinfo {volume}
+  {69}},\ \bibinfo {pages} {044025(20)} (\bibinfo {year} {2004})},\ ISSN
+  \bibinfo {issn} {1550-7998}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gradshteyn}\ and\ \citenamefont
+  {Ryzhik}(2000)}]{Gradshteyn2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Gradshteyn}}\ and\ \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Ryzhik}},\ }\href@noop {} {\emph {\bibinfo {title} {{Table of Integrals,
+  Series, and Products}}}},\ \bibinfo {edition} {sixth}\ ed.,\ edited by\
+  \bibinfo {editor} {\bibfnamefont {A.}~\bibnamefont {Jeffrey}}\ (\bibinfo
+  {publisher} {Academic Press},\ \bibinfo {address} {London},\ \bibinfo {year}
+  {2000})\ ISBN \bibinfo {isbn} {0-12-294757-6}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cutler}\ \emph {et~al.}(1994)\citenamefont {Cutler},
+  \citenamefont {Kennefick},\ and\ \citenamefont {Poisson}}]{Cutler1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Cutler}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Kennefick}}, \
+  and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Poisson}},\ }\Doi
+  {10.1103/PhysRevD.50.3816} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review D},\ }\textbf {\bibinfo {volume} {50}},\ \bibinfo {pages}
+  {3816} (\bibinfo {year} {1994})},\ ISSN \bibinfo {issn}
+  {0556-2821}\BibitemShut {NoStop}%
+\end{thebibliography}%
